@@ -1,0 +1,57 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.top-banner-section{
+    background-image: url(images/Helps-for-survivors.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+}
+#top-haader-text{
+    font-size: 35px;
+    text-align: center;
+    color:white;
+}
+
+#paragraph-text{
+    font-size: 5px;
+    color:white;
+}
+
+.button-design{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+    
+}
