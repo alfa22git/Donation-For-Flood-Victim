@@ -12,7 +12,7 @@ p{
     font-weight: normal;
     font-family:"Inter";
     font-size: 25px;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 #top-banner-section{
@@ -63,18 +63,103 @@ p{
     border-radius: 6px;
 }
 
-
-
-
-
-
-
-
-
-
-.footer-section{
-    text-align: center;
-    background-color: black;
-    color: chartreuse;
-    
+#donate-today-section{
+    background: #ffffff;
+    padding: 125px 0px;
 }
+
+.donate-today-area{
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.donate-today-text h2{
+    color: black;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.donate-today-text p{
+    width: 750px;
+    margin: 0 auto;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.donation-amount-taka {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+.donation-amount-taka .donation-taka {
+    width: 135px;
+    height: auto;
+    padding: 43px 15px;
+    background: #fafafa;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.donation-amount-taka .donation-taka h4 {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #707070;
+  }
+
+.donation-amount-taka .donation-taka-200 {
+    width: 135px;
+    height: auto;
+    padding: 43px 15px;
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.donation-amount-taka .donation-taka-200 h4 {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ff5959;
+  }
+
+  .donation {
+    text-align: center;
+  }
+
+input#donation-amount-filed {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cec9c9;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 48px;
+  }
+
+input#donation-amount-filed:focus {
+    border: none;
+  }
+  
+.donation button {
+    color: white;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    background: #f46830;
+    padding: 16px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
